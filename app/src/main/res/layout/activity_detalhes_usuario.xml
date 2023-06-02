@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:layout_marginTop="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borda"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="7dp">
+    <TextView
+        android:id="@+id/editTextNome"
+        android:drawableLeft="@drawable/perfil"
+        android:drawablePadding="5dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="@string/usuariolista" />
+
+    <TextView
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="5dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="@string/emaillista" />
+
+    <TextView
+        android:id="@+id/editTextOpiniao"
+        android:drawableLeft="@drawable/question"
+        android:drawablePadding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:hint="@string/opiniao" />
+
+    <Button
+        android:id="@+id/inicioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#46B49A"
+        android:layout_marginTop="180dp"
+        android:text="@string/inicio"
+        android:layout_marginBottom="25dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PoluicaoAmbiental</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nome">Nome:</string>
+    <string name="email">Email</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="opiniao">Opinião de como ajudar o meio ambiente</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastropronto">Já possui cadastro? Logue-se agora!</string>
+    <string name="inicio">Início</string>
+    <string name="entrar">Entrar</string>
+    <string name="semcadastro">Não possui cadastro? Cadastre-se agora!</string>
+    <string name="jaemuso">Este nome de usuário já está em uso!</string>
+    <string name="campoobrigatorio">Preencha todos os campos obrigatórios!</string>
+    <string name="cadastrorealizado">Cadastro realizado com sucesso!</string>
+    <string name="loginrealizado">Login realizado com sucesso!</string>
+    <string name="falhalogin">Falha no login. Verifique o usuário e senha.</string>
+    <string name="tentetarde">Falha no login. Tente novamente mais tarde.</string>
+    <string name="emaillista">Email:</string>
+    <string name="opiniaolista">Opinião de como ajudar o meio ambiente:</string>
+    <string name="usuariolista">Usuario:</string>
+    <string name="textoambiente">Este projeto tem sistema de realizar pesquisa sobre a população com intuito de ajudar o meio ambiente.</string>
+    <string name="erro">erro\n</string>
+</resources>

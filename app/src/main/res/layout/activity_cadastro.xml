@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CadastroActivity"
+    android:background="@drawable/background">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borda"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="@string/cadastro" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:paddingTop="100dp"
+        android:drawableLeft="@drawable/perfil"
+        android:drawablePadding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/perfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:drawableLeft="@drawable/key"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/senha" />
+
+    <EditText
+        android:id="@+id/editTextOpiniao"
+        android:drawableLeft="@drawable/question"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/opiniao" />
+
+    <Button
+        android:id="@+id/buttonCadastrar"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="#46B49A"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastrar" />
+            <TextView
+                android:id="@+id/textViewCadastro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastropronto"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PoluicaoAmbiental</string>
+    <string name="cadastro">Register</string>
+    <string name="nome">Name:</string>
+    <string name="email">Email</string>
+    <string name="usuario">User</string>
+    <string name="senha">Password</string>
+    <string name="opiniao">Opinion on how to help the environment</string>
+    <string name="cadastrar">Register</string>
+    <string name="cadastropronto">Already have registration? Login now!</string>
+    <string name="inicio">Home</string>
+    <string name="entrar">Login</string>
+    <string name="semcadastro">Don\'t have a registration? Register now!</string>
+    <string name="jaemuso">This username is already in use!</string>
+    <string name="campoobrigatorio">Fill in all mandatory fields!</string>
+    <string name="cadastrorealizado">" Registration completed successfully!"</string>
+    <string name="loginrealizado">Login successful!</string>
+    <string name="falhalogin">Login failed. Check the username and password.</string>
+    <string name="tentetarde">Login failed. Try again later.</string>
+    <string name="emaillista">Email:</string>
+    <string name="opiniaolista">Opinion on how to help the environment:</string>
+    <string name="usuariolista">User:</string>
+    <string name="textoambiente">This project is a system of conducting research on the population in order to help the environment.</string>
+</resources>
